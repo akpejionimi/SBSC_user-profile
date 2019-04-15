@@ -10,20 +10,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="script.js"></script>
 </head>
 
 <body class="bg">
     <div class="navbar">
         <nav class="nav">
-            <span>Home</span>
-            <span>About Us</span>
-            <span> Pricing</span>
-            <span>How it works</span>
-            <span>Sign in</span>
-            <span><button class="btn-auth"> Sign Up</button></span> 
+            <ul class="links">
+                <li>
+                    <a>Home</a>
+                </li>
+
+                <li>
+                    <a>About Us</a>
+                </li>
+                <li>
+                    <a> Pricing</a>
+                </li>
+
+                <li>
+                    <a> How it works</a>
+                </li>
+
+                <li>
+                    <a> Sign in</a>
+                </li>
+                <li>
+                    <button class="btn-auth"> Sign Up</button>
+                </li>
+
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </div>
-
 
     <div class="wrapper">
         <div class="profile">
@@ -52,19 +75,19 @@
                         <img class="user-gal" src="./iamges/randomuser.png" alt="following">
                     </div>
                     <div class="followid">
-                        <img class="user-gal"  src="./iamges//randomuser.png" alt="following">
+                        <img class="user-gal" src="./iamges//randomuser.png" alt="following">
                     </div>
                     <div class="followid">
-                        <img class="user-gal"  src="./iamges//randomuser.png" alt="following">
+                        <img class="user-gal" src="./iamges//randomuser.png" alt="following">
                     </div>
                     <div class="followid">
-                        <img class="user-gal"  src="./iamges//randomuser.png" alt="following">
+                        <img class="user-gal" src="./iamges//randomuser.png" alt="following">
                     </div>
                     <div class="followid">
-                        <img class="user-gal"  src="./iamges/randomuser.png" alt="following">
+                        <img class="user-gal" src="./iamges/randomuser.png" alt="following">
                     </div>
                     <div class="followid">
-                        <img class="user-gal"  src="./iamges//randomuser.png" alt="following">
+                        <img class="user-gal" src="./iamges//randomuser.png" alt="following">
                     </div>
                     <p>
                         +12
@@ -86,7 +109,7 @@
                     10 Days consecutively <button class="btn-prim"> 11/13</button>
                 </div>
                 <div class="task">
-                        9 Days consecutively <button class="btn-prim"> 1/7</button>
+                    9 Days consecutively <button class="btn-prim"> 1/7</button>
                 </div>
             </div>
             <div class="rating">
@@ -106,6 +129,7 @@
                 <div class="views-right">
                     <button class="btn-views2"><i class="far fa-calendar-plus"></i> Add Tasks</button>
                 </div>
+            <button class="ham" id="ham">View Profile</button>
             </div>
             <div class="tech">
                 <div class="tech-stack">
@@ -145,7 +169,7 @@
                                 voluptatum,
 
                             </div>
-                            <p>   completed 24 hour ago</p>
+                            <p> completed 24 hour ago</p>
 
                         </div>
                         <i class="fas fa-trash-alt"></i>
@@ -276,12 +300,12 @@
                 <div class="tech-stack">
                     <input type="checkbox">
                     <div class="tech-logo">
-                        <img src="./iamges/diamond.png" alt="diamond">
+                        <img src="./iamges/diamond.png" alt="react">
                     </div>
                     <div class="tech-info">
 
 
-                        <div class="tech-info" class="checkbox">
+                        <div class="tech-details" class="checkbox">
                             <div class="title">
                                 To Code and create my angular APP
                             </div>
